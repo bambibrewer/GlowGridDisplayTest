@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31108D6124C1FF2A007647A9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31108D6024C1FF2A007647A9 /* MenuViewController.swift */; };
+		3134718F24C248E2009B6CE0 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134718E24C248E2009B6CE0 /* Topic.swift */; };
+		31AE3B2624A6DA6A002192F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE3B2524A6DA6A002192F3 /* AppDelegate.swift */; };
+		31AE3B2A24A6DA6A002192F3 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE3B2924A6DA6A002192F3 /* DisplayViewController.swift */; };
+		31AE3B2D24A6DA6A002192F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AE3B2B24A6DA6A002192F3 /* Main.storyboard */; };
+		31AE3B2F24A6DA6B002192F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31AE3B2E24A6DA6B002192F3 /* Assets.xcassets */; };
+		31AE3B3224A6DA6B002192F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AE3B3024A6DA6B002192F3 /* LaunchScreen.storyboard */; };
+		31AE3B3D24A6DA6C002192F3 /* GlowGridDisplayTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE3B3C24A6DA6C002192F3 /* GlowGridDisplayTestTests.swift */; };
+		31AE3B4824A6DA6C002192F3 /* GlowGridDisplayTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE3B4724A6DA6C002192F3 /* GlowGridDisplayTestUITests.swift */; };
+		31AE3B5624A6DC8D002192F3 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE3B5524A6DC8D002192F3 /* Display.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31AE3B3924A6DA6C002192F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31AE3B1A24A6DA6A002192F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31AE3B2124A6DA6A002192F3;
+			remoteInfo = GlowGridDisplayTest;
+		};
+		31AE3B4424A6DA6C002192F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31AE3B1A24A6DA6A002192F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31AE3B2124A6DA6A002192F3;
+			remoteInfo = GlowGridDisplayTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31108D6024C1FF2A007647A9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3134718E24C248E2009B6CE0 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		31AE3B2224A6DA6A002192F3 /* GlowGridDisplayTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlowGridDisplayTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AE3B2524A6DA6A002192F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31AE3B2924A6DA6A002192F3 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+		31AE3B2C24A6DA6A002192F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31AE3B2E24A6DA6B002192F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31AE3B3124A6DA6B002192F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31AE3B3324A6DA6B002192F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31AE3B3824A6DA6C002192F3 /* GlowGridDisplayTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlowGridDisplayTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AE3B3C24A6DA6C002192F3 /* GlowGridDisplayTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowGridDisplayTestTests.swift; sourceTree = "<group>"; };
+		31AE3B3E24A6DA6C002192F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31AE3B4324A6DA6C002192F3 /* GlowGridDisplayTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlowGridDisplayTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AE3B4724A6DA6C002192F3 /* GlowGridDisplayTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowGridDisplayTestUITests.swift; sourceTree = "<group>"; };
+		31AE3B4924A6DA6C002192F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31AE3B5524A6DC8D002192F3 /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31AE3B1F24A6DA6A002192F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AE3B3524A6DA6C002192F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AE3B4024A6DA6C002192F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31AE3B1924A6DA6A002192F3 = {
+			isa = PBXGroup;
+			children = (
+				31AE3B2424A6DA6A002192F3 /* GlowGridDisplayTest */,
+				31AE3B3B24A6DA6C002192F3 /* GlowGridDisplayTestTests */,
+				31AE3B4624A6DA6C002192F3 /* GlowGridDisplayTestUITests */,
+				31AE3B2324A6DA6A002192F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31AE3B2324A6DA6A002192F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31AE3B2224A6DA6A002192F3 /* GlowGridDisplayTest.app */,
+				31AE3B3824A6DA6C002192F3 /* GlowGridDisplayTestTests.xctest */,
+				31AE3B4324A6DA6C002192F3 /* GlowGridDisplayTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31AE3B2424A6DA6A002192F3 /* GlowGridDisplayTest */ = {
+			isa = PBXGroup;
+			children = (
+				31AE3B2524A6DA6A002192F3 /* AppDelegate.swift */,
+				31AE3B2924A6DA6A002192F3 /* DisplayViewController.swift */,
+				31AE3B5524A6DC8D002192F3 /* Display.swift */,
+				31AE3B2B24A6DA6A002192F3 /* Main.storyboard */,
+				31AE3B2E24A6DA6B002192F3 /* Assets.xcassets */,
+				31AE3B3024A6DA6B002192F3 /* LaunchScreen.storyboard */,
+				31AE3B3324A6DA6B002192F3 /* Info.plist */,
+				31108D6024C1FF2A007647A9 /* MenuViewController.swift */,
+				3134718E24C248E2009B6CE0 /* Topic.swift */,
+			);
+			path = GlowGridDisplayTest;
+			sourceTree = "<group>";
+		};
+		31AE3B3B24A6DA6C002192F3 /* GlowGridDisplayTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				31AE3B3C24A6DA6C002192F3 /* GlowGridDisplayTestTests.swift */,
+				31AE3B3E24A6DA6C002192F3 /* Info.plist */,
+			);
+			path = GlowGridDisplayTestTests;
+			sourceTree = "<group>";
+		};
+		31AE3B4624A6DA6C002192F3 /* GlowGridDisplayTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31AE3B4724A6DA6C002192F3 /* GlowGridDisplayTestUITests.swift */,
+				31AE3B4924A6DA6C002192F3 /* Info.plist */,
+			);
+			path = GlowGridDisplayTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31AE3B2124A6DA6A002192F3 /* GlowGridDisplayTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31AE3B4C24A6DA6C002192F3 /* Build configuration list for PBXNativeTarget "GlowGridDisplayTest" */;
+			buildPhases = (
+				31AE3B1E24A6DA6A002192F3 /* Sources */,
+				31AE3B1F24A6DA6A002192F3 /* Frameworks */,
+				31AE3B2024A6DA6A002192F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlowGridDisplayTest;
+			productName = GlowGridDisplayTest;
+			productReference = 31AE3B2224A6DA6A002192F3 /* GlowGridDisplayTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31AE3B3724A6DA6C002192F3 /* GlowGridDisplayTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31AE3B4F24A6DA6C002192F3 /* Build configuration list for PBXNativeTarget "GlowGridDisplayTestTests" */;
+			buildPhases = (
+				31AE3B3424A6DA6C002192F3 /* Sources */,
+				31AE3B3524A6DA6C002192F3 /* Frameworks */,
+				31AE3B3624A6DA6C002192F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31AE3B3A24A6DA6C002192F3 /* PBXTargetDependency */,
+			);
+			name = GlowGridDisplayTestTests;
+			productName = GlowGridDisplayTestTests;
+			productReference = 31AE3B3824A6DA6C002192F3 /* GlowGridDisplayTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31AE3B4224A6DA6C002192F3 /* GlowGridDisplayTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31AE3B5224A6DA6C002192F3 /* Build configuration list for PBXNativeTarget "GlowGridDisplayTestUITests" */;
+			buildPhases = (
+				31AE3B3F24A6DA6C002192F3 /* Sources */,
+				31AE3B4024A6DA6C002192F3 /* Frameworks */,
+				31AE3B4124A6DA6C002192F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31AE3B4524A6DA6C002192F3 /* PBXTargetDependency */,
+			);
+			name = GlowGridDisplayTestUITests;
+			productName = GlowGridDisplayTestUITests;
+			productReference = 31AE3B4324A6DA6C002192F3 /* GlowGridDisplayTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31AE3B1A24A6DA6A002192F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Bambi Brewer";
+				TargetAttributes = {
+					31AE3B2124A6DA6A002192F3 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					31AE3B3724A6DA6C002192F3 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 31AE3B2124A6DA6A002192F3;
+					};
+					31AE3B4224A6DA6C002192F3 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 31AE3B2124A6DA6A002192F3;
+					};
+				};
+			};
+			buildConfigurationList = 31AE3B1D24A6DA6A002192F3 /* Build configuration list for PBXProject "GlowGridDisplayTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31AE3B1924A6DA6A002192F3;
+			productRefGroup = 31AE3B2324A6DA6A002192F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31AE3B2124A6DA6A002192F3 /* GlowGridDisplayTest */,
+				31AE3B3724A6DA6C002192F3 /* GlowGridDisplayTestTests */,
+				31AE3B4224A6DA6C002192F3 /* GlowGridDisplayTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31AE3B2024A6DA6A002192F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AE3B3224A6DA6B002192F3 /* LaunchScreen.storyboard in Resources */,
+				31AE3B2F24A6DA6B002192F3 /* Assets.xcassets in Resources */,
+				31AE3B2D24A6DA6A002192F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AE3B3624A6DA6C002192F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AE3B4124A6DA6C002192F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31AE3B1E24A6DA6A002192F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AE3B2A24A6DA6A002192F3 /* DisplayViewController.swift in Sources */,
+				3134718F24C248E2009B6CE0 /* Topic.swift in Sources */,
+				31AE3B5624A6DC8D002192F3 /* Display.swift in Sources */,
+				31AE3B2624A6DA6A002192F3 /* AppDelegate.swift in Sources */,
+				31108D6124C1FF2A007647A9 /* MenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AE3B3424A6DA6C002192F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AE3B3D24A6DA6C002192F3 /* GlowGridDisplayTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AE3B3F24A6DA6C002192F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AE3B4824A6DA6C002192F3 /* GlowGridDisplayTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31AE3B3A24A6DA6C002192F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31AE3B2124A6DA6A002192F3 /* GlowGridDisplayTest */;
+			targetProxy = 31AE3B3924A6DA6C002192F3 /* PBXContainerItemProxy */;
+		};
+		31AE3B4524A6DA6C002192F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31AE3B2124A6DA6A002192F3 /* GlowGridDisplayTest */;
+			targetProxy = 31AE3B4424A6DA6C002192F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31AE3B2B24A6DA6A002192F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31AE3B2C24A6DA6A002192F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31AE3B3024A6DA6B002192F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31AE3B3124A6DA6B002192F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31AE3B4A24A6DA6C002192F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31AE3B4B24A6DA6C002192F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31AE3B4D24A6DA6C002192F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlowGridDisplayTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.birdbraintech.GlowGridDisplayTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31AE3B4E24A6DA6C002192F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlowGridDisplayTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.birdbraintech.GlowGridDisplayTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31AE3B5024A6DA6C002192F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlowGridDisplayTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.birdbraintech.GlowGridDisplayTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlowGridDisplayTest.app/GlowGridDisplayTest";
+			};
+			name = Debug;
+		};
+		31AE3B5124A6DA6C002192F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlowGridDisplayTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.birdbraintech.GlowGridDisplayTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlowGridDisplayTest.app/GlowGridDisplayTest";
+			};
+			name = Release;
+		};
+		31AE3B5324A6DA6C002192F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlowGridDisplayTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.birdbraintech.GlowGridDisplayTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlowGridDisplayTest;
+			};
+			name = Debug;
+		};
+		31AE3B5424A6DA6C002192F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlowGridDisplayTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.birdbraintech.GlowGridDisplayTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlowGridDisplayTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31AE3B1D24A6DA6A002192F3 /* Build configuration list for PBXProject "GlowGridDisplayTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AE3B4A24A6DA6C002192F3 /* Debug */,
+				31AE3B4B24A6DA6C002192F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31AE3B4C24A6DA6C002192F3 /* Build configuration list for PBXNativeTarget "GlowGridDisplayTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AE3B4D24A6DA6C002192F3 /* Debug */,
+				31AE3B4E24A6DA6C002192F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31AE3B4F24A6DA6C002192F3 /* Build configuration list for PBXNativeTarget "GlowGridDisplayTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AE3B5024A6DA6C002192F3 /* Debug */,
+				31AE3B5124A6DA6C002192F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31AE3B5224A6DA6C002192F3 /* Build configuration list for PBXNativeTarget "GlowGridDisplayTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AE3B5324A6DA6C002192F3 /* Debug */,
+				31AE3B5424A6DA6C002192F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31AE3B1A24A6DA6A002192F3 /* Project object */;
+}
