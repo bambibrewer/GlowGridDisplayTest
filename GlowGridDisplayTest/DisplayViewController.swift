@@ -12,7 +12,7 @@ class DisplayViewController: UIViewController {
     
     var topic: Topic = .addition
     
-    @IBOutlet var glowBoardDisplay: Display!
+    @IBOutlet var glowBoardDisplay: GlowGridDisplay!
     
     @IBOutlet var firstNumberSlider: UISlider!
     @IBOutlet var secondNumberSlider: UISlider!

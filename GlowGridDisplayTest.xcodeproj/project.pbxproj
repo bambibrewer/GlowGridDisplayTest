@@ -16,7 +16,7 @@
 		31AE3B3224A6DA6B002192F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AE3B3024A6DA6B002192F3 /* LaunchScreen.storyboard */; };
 		31AE3B3D24A6DA6C002192F3 /* GlowGridDisplayTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE3B3C24A6DA6C002192F3 /* GlowGridDisplayTestTests.swift */; };
 		31AE3B4824A6DA6C002192F3 /* GlowGridDisplayTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE3B4724A6DA6C002192F3 /* GlowGridDisplayTestUITests.swift */; };
-		31AE3B5624A6DC8D002192F3 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE3B5524A6DC8D002192F3 /* Display.swift */; };
+		31AE3B5624A6DC8D002192F3 /* GlowGridDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE3B5524A6DC8D002192F3 /* GlowGridDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		31AE3B4324A6DA6C002192F3 /* GlowGridDisplayTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlowGridDisplayTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31AE3B4724A6DA6C002192F3 /* GlowGridDisplayTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowGridDisplayTestUITests.swift; sourceTree = "<group>"; };
 		31AE3B4924A6DA6C002192F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31AE3B5524A6DC8D002192F3 /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		31AE3B5524A6DC8D002192F3 /* GlowGridDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowGridDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 			children = (
 				31AE3B2524A6DA6A002192F3 /* AppDelegate.swift */,
 				31AE3B2924A6DA6A002192F3 /* DisplayViewController.swift */,
-				31AE3B5524A6DC8D002192F3 /* Display.swift */,
+				31AE3B5524A6DC8D002192F3 /* GlowGridDisplay.swift */,
 				31AE3B2B24A6DA6A002192F3 /* Main.storyboard */,
 				31AE3B2E24A6DA6B002192F3 /* Assets.xcassets */,
 				31AE3B3024A6DA6B002192F3 /* LaunchScreen.storyboard */,
@@ -267,7 +267,7 @@
 			files = (
 				31AE3B2A24A6DA6A002192F3 /* DisplayViewController.swift in Sources */,
 				3134718F24C248E2009B6CE0 /* Topic.swift in Sources */,
-				31AE3B5624A6DC8D002192F3 /* Display.swift in Sources */,
+				31AE3B5624A6DC8D002192F3 /* GlowGridDisplay.swift in Sources */,
 				31AE3B2624A6DA6A002192F3 /* AppDelegate.swift in Sources */,
 				31108D6124C1FF2A007647A9 /* MenuViewController.swift in Sources */,
 			);

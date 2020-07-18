@@ -11,7 +11,7 @@ import UIKit
 
 
 @IBDesignable
-class Display: UIView {
+class GlowGridDisplay: UIView {
     
     var topic: Topic = .addition    // Default is addition
     
